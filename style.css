@@ -1,0 +1,84 @@
+/* vídeo 15
+- reglas = conjunto de un selector
+  - selectores
+    - declaraciones
+      - propiedades
+        - valores
+*/
+/* selector de etiqueta - section - article - header - nav */
+/* selector descendente body-->header-->div-->ol-->li-->a */
+/* selector de clase - es un  atributo y se identifica anteponiendo
+un punto .link */
+/* selector de id #masproyectos */
+/* header{
+  background: black;
+  color: red;
+} */
+
+body{
+  font-family: font-family: 'Fjalla One', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: font-family: 'Comfortaa', cursive , sans-serif;
+  font-weight: normal;
+
+}
+h1{
+/* tamaño de la fuente */
+  font-size: 40px;
+  /* interlineado */
+  line-height: 120%;
+  /* Espaciado entre las  letras */
+  letter-spacing: -.2px;
+  /* Transformacion del texto */
+  /* text-transform: capitalize; */
+  /* text-decoration: ; */
+}
+h1 strong{
+  color: #f95d77;
+}
+.moreprojects{
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.project{
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 15px 0;
+}
+.project_details{
+  margin: 10px 0;
+  width: 500px;
+  height: 150px;
+}
+.project_imageConteiner{
+  width: 500px;
+}
+.hero{
+  /* width: 600px; */
+  height: 250px;
+  background-image: url('img/5.jpg');
+  background-color: #5e9cf7;
+  background-size: 300px 180px;
+  background-repeat: no-repeat;
+  /*alinear el background desde uno de los ejes*/
+  background-position-x: right;
+  color: white;
+
+
+}
+.header{
+  background-color: #5e9cf7;
+  color: white;
+}
+/* //clase descendentes para las anclas */
+.header a {
+  color: white;
+  text-decoration:none;
+}
